@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Pos.Infrastructure</AssemblyName>
+    <RootNamespace>Pos.Infrastructure</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../domain/Domain.csproj" />
+    <ProjectReference Include="../application/Application.csproj" />
+  </ItemGroup>
+</Project>

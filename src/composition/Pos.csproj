@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Composition root и точка входа: единственный проект, который видит все слои -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>pos</AssemblyName>
+    <RootNamespace>Pos.Composition</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../domain/Domain.csproj" />
+    <ProjectReference Include="../application/Application.csproj" />
+    <ProjectReference Include="../infrastructure/Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

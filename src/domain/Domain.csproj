@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Домен ни на что не ссылается -->
+  <PropertyGroup>
+    <AssemblyName>Pos.Domain</AssemblyName>
+    <RootNamespace>Pos.Domain</RootNamespace>
+  </PropertyGroup>
+</Project>

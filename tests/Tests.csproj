@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Тесты без сторонних библиотек: свой маленький раннер, как в C++ версии -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>test_pos</AssemblyName>
+    <RootNamespace>Pos.Tests</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../src/domain/Domain.csproj" />
+    <ProjectReference Include="../src/application/Application.csproj" />
+    <ProjectReference Include="../src/infrastructure/Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

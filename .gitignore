@@ -1,0 +1,8 @@
+bin/
+obj/
+data/
+testdata_pos/
+.DS_Store
+.idea/
+.vs/
+*.user
